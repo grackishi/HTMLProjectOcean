@@ -31,7 +31,7 @@ body {
 /*id=title setup for the div*/
 #title {
   border: 2px solid white;
-  background-color: #4F64C1;
+  background-color: #009DDC;
   height:100px;
   width: 100%;
   float:center;
