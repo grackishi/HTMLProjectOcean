@@ -133,7 +133,7 @@ body {
 <!--place image to the left of the text on page-->
 <div id="left"> <p align="center">
   <BR>
-    <img src="oceanlayers.png" height="45%">
+    <img src="oceanlayers.png" height="90%">
   </p></div>
 
 <!--setup text and info about sunlight zone on page-->
