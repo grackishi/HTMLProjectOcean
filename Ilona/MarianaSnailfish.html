@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+
+<title> Ilona Kovacs - Mariana Snailfish </title>
+
+<meta http-equiv="Content-Type" content = "text/html; charset = ISO-8859-1">
+
+
+<style type="text/css">
+
+/*body setup for the document*/
+body {
+  background-image: linear-gradient(rgba(11,115,88, 0.8), rgba(0,100,200, .8));
+  height:100%
+}
+
+/*id=right setup for the div*/
+#right {
+  height: 600px;
+  width:50%;
+  background-color:rgba(79, 100, 193, 0.3);
+  float:right;
+}
+/*id=left setup for the div*/
+#left {
+  height: 600px;
+  width:50%;
+  float:left;
+}
+/*id=title setup for the div*/
+#title {
+  border: 2px solid white;
+  background-color: #FFCA3A;
+  height:100px;
+  width: 100%;
+  float:center;
+}
+
+/*button setup for document*/
+.button {
+  text-align: center;
+  padding: 16px 32px;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/*homebutton setup for button*/
+.homebutton {
+  background-color: #F36F3A;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for homebutton*/
+.homebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user back to subzone info page*/
+.subzonebutton {
+  background-color: #009DDC;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for subzonebutton*/
+.subzonebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+  z-index:1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+.dropdown-content a:hover {background-color: grey}
+.dropdown:hover .dropdown-content{display:block;};
+.dropdown:hover .dropbtn {background-color: grey;}
+/*trenchbutton setup for button*/
+.trenchbutton {
+  background-color: #8AC926;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for trenchbutton*/
+.trenchbutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+</style></head>
+
+<!--start of body for html page-->
+ <body>
+ <BR><BR>
+<!--created button so you can go back to home page-->
+<button class="button homebutton" onclick = "document.location = '../HomePage.html'">Home</button>
+<!--created button so you can navigate each zone, dropdown menu-->
+<div class="dropdown">
+  <button class="button subzonebutton">Subzones & More</button>
+  <div class="dropdown-content">
+    <a href="BathypelagicZone.html"><p style="font-family:verdana; font-size:14px">Bathypelagic Zone</p></a>
+    <a href="HadalpelagicZone.html"><p style="font-family:verdana; font-size:14px">Hadalpelagic Zone</p></a>
+    <a href="AnglerFish.html"><p style="font-family:verdana; font-size:14px">Angler Fish</p></a>
+    <a href="MarianaSnailfish.html"><p style="font-family:verdana; font-size:14px">Mariana Snailfish</p></a>
+    <a href="Foraminifera.html"><p style="font-family:verdana; font-size:14px">Foraminifera</p></a>
+  </div>
+</div>
+<BR><BR>
+
+<!--setup the title part of the page-->
+<div id="title">
+ <p align="center" style="font-family:verdana"><b>
+ <font size="72" color="white">Mariana Snailfish</font><BR></b>
+   <font color="white">
+     Plenty of fish deep in the sea
+   </font>
+ </p><BR>
+</div>
+
+<BR>
+<!--place image to the left of the text on page-->
+<div id="left"> <p align="center">
+  <BR><BR><BR>
+    <img src="assets/marianaSnailfish.png" width="90%">
+  <BR><BR><BR><BR>
+  	<img src="assets/marianaSnailfish2.jpg" height="50%">
+  </p></div>
+
+<!--setup text and info about snailfish on page-->
+  <div id="right">
+    <p align="center" style="font-family:verdana; font-size:20px">
+      <font color="white"><b><i> About the Mariana Snailfish</i> </b></font>
+    </p>
+<BR>
+<!--text block in right div for snailfish information-->
+  <p align="center" p style="font-family:verdana">
+    <font color="white">  The Mariana Snailfish was discovered only a couple of years ago in the trenches of our oceans about 5 miles, or around 26,135 feet, deep! AND there are still 2 miles below where they were discovered that has yet to be explored, but scientists are reluctant to expect any more discoveries of life any deeper. There is such an intense pressure below the surface, that even finding these twice the size of a cigar fish was a surprise! They are considered to be cute and have a color similar to a light pink!
+    <BR><BR>
+    These snailfish lay eggs that are thought to be big at about 1 centimeter wide and are very abundant within the trenches. Upon discovery, scientists decided to dissect a Mariana Snailfish and found many roly-poly like creatures in their stomachs meaning food appears to be abundant.
+    <BR><BR>
+    Despite these being the deepest fish that we have found in the ocean, human impact is still prevelant at these depths. Plastic particles have been recorded in the crustaceans that are eaten by the Mariana Snailfish at 5 miles deep.
+        </font>
+       </p>
+     </div>
+   <BR><BR>
+
+<!--button so you can go to trench page-->
+  <p align="center">
+    <button class="button trenchbutton" onclick="document.location = 'HadalpelagicZone.html'">Learn About Their Zone!</button>
+  </p>
+
+  <!--external links with more info on other sites-->
+<BR>
+  <p align="left" style="font-family:verdana; font-size:16px">
+    <font color="white"><i>Learn more about the Mariana Snailfish at these sites:</i><BR></font>
+    </p>
+    <p align="left" style="font-family:verdana; font-size:14px">
+      <a href="https://www.nationalgeographic.com/news/2017/11/deepest-sea-fish-identified-snailfish-pseudoliparis-swirei-spd/#close">National Geographic - New Fish</a>
+      <BR>
+      <a href="https://www.nationalgeographic.com/animals/2019/04/how-deep-sea-snailfish-survive-mariana-trench/">National Geographic - How the world’s deepest fish survives bone-crushing pressure</a>
+      </p>
+<BR><BR><BR><BR>
+</body>
+</html>

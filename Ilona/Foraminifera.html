@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+
+<title> Ilona Kovacs - Foraminifera </title>
+
+<meta http-equiv="Content-Type" content = "text/html; charset = ISO-8859-1">
+
+
+<style type="text/css">
+
+/*body setup for the document*/
+body {
+  background-image: linear-gradient(rgba(11,115,88, 0.8), rgba(0,100,200, .8));
+  height:100%
+}
+
+/*id=right setup for the div*/
+#right {
+  height: 600px;
+  width:50%;
+  background-color:rgba(79, 100, 193, 0.3);
+  float:right;
+}
+/*id=left setup for the div*/
+#left {
+  height: 600px;
+  width:50%;
+  float:left;
+}
+/*id=title setup for the div*/
+#title {
+  border: 2px solid white;
+  background-color: #F36F3A;
+  height:100px;
+  width: 100%;
+  float:center;
+}
+
+/*button setup for document*/
+.button {
+  text-align: center;
+  padding: 16px 32px;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/*homebutton setup for button*/
+.homebutton {
+  background-color: #FFCA3A;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for homebutton*/
+.homebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user back to subzone info page*/
+.subzonebutton {
+  background-color: #009DDC;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for subzonebutton*/
+.subzonebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+  z-index:1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+.dropdown-content a:hover {background-color: grey}
+.dropdown:hover .dropdown-content{display:block;};
+.dropdown:hover .dropbtn {background-color: grey;}
+/*trenchbutton setup for button*/
+.trenchbutton {
+  background-color: #8AC926;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for trenchbutton*/
+.trenchbutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+</style></head>
+
+<!--start of body for html page-->
+ <body>
+ <BR><BR>
+<!--created button so you can go back to home page-->
+<button class="button homebutton" onclick = "document.location = '../HomePage.html'">Home</button>
+<!--created button so you can navigate each zone, dropdown menu-->
+<div class="dropdown">
+  <button class="button subzonebutton">Subzones & More</button>
+  <div class="dropdown-content">
+    <a href="BathypelagicZone.html"><p style="font-family:verdana; font-size:14px">Bathypelagic Zone</p></a>
+    <a href="HadalpelagicZone.html"><p style="font-family:verdana; font-size:14px">Hadalpelagic Zone</p></a>
+    <a href="AnglerFish.html"><p style="font-family:verdana; font-size:14px">Angler Fish</p></a>
+    <a href="MarianaSnailfish.html"><p style="font-family:verdana; font-size:14px">Mariana Snailfish</p></a>
+    <a href="Foraminifera.html"><p style="font-family:verdana; font-size:14px">Foraminifera</p></a>
+  </div>
+</div>
+<BR><BR>
+
+<!--setup the title part of the page-->
+<div id="title">
+ <p align="center" style="font-family:verdana"><b>
+ <font size="72" color="white">Foraminifera</font><BR></b>
+   <font color="white">
+     She sells sea shells by the sea shore
+   </font>
+ </p><BR>
+</div>
+
+<BR>
+<!--place image to the left of the text on page-->
+<div id="left"> <p align="center">
+  <BR>
+    <img src="assets/foraminifera.jpg" width="50%">
+  <BR><BR>
+  	<img src="assets/foraminifera2.png" width="50%">
+  </p></div>
+
+<!--setup text and info about foraminifera on page-->
+  <div id="right">
+    <p align="center" style="font-family:verdana; font-size:20px">
+      <font color="white"><b><i> About the Forams</i> </b></font>
+    </p>
+<BR>
+<!--text block in right div for foraminifera information-->
+  <p align="center" p style="font-family:verdana">
+    <font color="white">  Foraminifera are tiny single celled living organisms, or eukaryotes. They survive both as planktonic and as benthos in deeper water. When they survive in shallower waters they use a test, or shell, that is made up of calcium carbonate. Those which were founded in the trenches are protected by an organic test instead, proving the vitality of having these shells. There are over 4,000 types that all appear differently!
+    <BR><BR>
+    These foraminifera are actually used as guides to find petroleum oils in our seas. Only specific species are capable of residing, or have fossils of their shells found, in the areas where drilling is common. 
+    <BR><BR>
+    They are incredibly abundant making them a reliable food source for many different species. We know very little information about the behaviors of foraminifera itself, but we understand that their presence is vital for other marine life.
+        </font>
+       </p>
+     </div>
+   <BR><BR>
+
+<!--button so you can go to trench page-->
+  <p align="center">
+    <button class="button trenchbutton" onclick="document.location = 'HadalpelagicZone.html'">Learn About Their Zone!</button>
+  </p>
+
+  <!--external links with more info on other sites-->
+<BR>
+  <p align="left" style="font-family:verdana; font-size:16px">
+    <font color="white"><i>Learn more about the Foraminifera at these sites:</i><BR></font>
+    </p>
+    <p align="left" style="font-family:verdana; font-size:14px">
+      <a href="https://ucmp.berkeley.edu/fosrec/Wetmore.html">UCMP Berkelely - An Introduction to Foraminifera</a>
+      <BR>
+      <a href="https://www.britannica.com/science/foraminiferan">Britannica - Foraminifera</a>
+      </p>
+<BR><BR><BR><BR>
+</body>
+</html>
