@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+
+<title> Ilona Kovacs - Angler Fish </title>
+
+<meta http-equiv="Content-Type" content = "text/html; charset = ISO-8859-1">
+
+
+<style type="text/css">
+
+/*body setup for the document*/
+body {
+  background-image: linear-gradient(rgba(11,115,88, 0.8), rgba(0,100,200, .8));
+  height:100%
+}
+
+/*id=right setup for the div*/
+#right {
+  height: 600px;
+  width:50%;
+  background-color:rgba(79, 100, 193, 0.3);
+  float:right;
+}
+/*id=left setup for the div*/
+#left {
+  height: 600px;
+  width:50%;
+  float:left;
+}
+/*id=title setup for the div*/
+#title {
+  border: 2px solid white;
+  background-color: #FF595E;
+  height:100px;
+  width: 100%;
+  float:center;
+}
+
+/*button setup for document*/
+.button {
+  text-align: center;
+  padding: 16px 32px;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/*homebutton setup for button*/
+.homebutton {
+  background-color: #FFCA3A;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for homebutton*/
+.homebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user back to subzone info page*/
+.subzonebutton {
+  background-color: #009DDC;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for subzonebutton*/
+.subzonebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+  z-index:1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+.dropdown-content a:hover {background-color: grey}
+.dropdown:hover .dropdown-content{display:block;};
+.dropdown:hover .dropbtn {background-color: grey;}
+/*midnightbutton setup for button*/
+.midnightbutton {
+  background-color: #8AC926;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for midnightbutton*/
+.midnightbutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+</style></head>
+
+<!--start of body for html page-->
+ <body>
+ <BR><BR>
+<!--created button so you can go back to home page-->
+<button class="button homebutton" onclick = "document.location = '../HomePage.html'">Home</button>
+<!--created button so you can navigate each zone, dropdown menu-->
+<div class="dropdown">
+  <button class="button subzonebutton">Subzones & More</button>
+  <div class="dropdown-content">
+    <a href="BathypelagicZone.html"><p style="font-family:verdana; font-size:14px">Bathypelagic Zone</p></a>
+    <a href="HadalpelagicZone.html"><p style="font-family:verdana; font-size:14px">Hadalpelagic Zone</p></a>
+    <a href="AnglerFish.html"><p style="font-family:verdana; font-size:14px">Angler Fish</p></a>
+    <a href="MarianaSnailfish.html"><p style="font-family:verdana; font-size:14px">Mariana Snailfish</p></a>
+    <a href="Foraminifera.html"><p style="font-family:verdana; font-size:14px">Foraminifera</p></a>
+  </div>
+</div>
+<BR><BR>
+
+<!--setup the title part of the page-->
+<div id="title">
+ <p align="center" style="font-family:verdana"><b>
+ <font size="72" color="white">Angler Fish</font><BR></b>
+   <font color="white">
+     Don't trust this light at the end of the tunnel
+   </font>
+ </p><BR>
+</div>
+
+<BR>
+<!--place image to the left of the text on page-->
+<div id="left"> <p align="center">
+  <BR>
+    <img src="assets/anglerfish.jpg" height="90%">
+  </p></div>
+
+<!--setup text and info about angler fish on page-->
+  <div id="right">
+    <p align="center" style="font-family:verdana; font-size:20px">
+      <font color="white"><b><i> About the Angler Fish</i> </b></font>
+    </p>
+<BR>
+<!--text block in right div for angler fish information-->
+  <p align="center" p style="font-family:verdana">
+    <font color="white">  The stereotypical Angler Fish that comes to mind is usually the female! These fish use a tiny bioluminescent bulb called an illicium that hangs from their front fin in order to lure in their prey. The bulb appears to other creatures around as a small prey for them, when in fact they will become the prey. They are very carnivorous due to the lack of phytoplankton or plants within the Bathypelagic Zone where they live.
+    <BR><BR>
+    These fish will consume anything from crustaceans like shrimp or snails to fish up to twice its size because of the flexibility of its jaw and body. The size of angler fish ranges from 8-40 inches and they can weigh up to 110 pounds!
+    <BR><BR>
+    When it comes to male angler fish, they lose their ability to digest or absorb nutrients once they reach adulthood. Because of this, the males will latch onto the more productive female fish. This allows them to eventually fuse together through blood. Males will gain their nutrients through whatever is consumed by the female angler fish that they fuse with! A female angler can carry up to 6 males with her at a single time.
+        </font>
+       </p>
+     </div>
+   <BR><BR>
+
+<!--button so you can go to midnight page-->
+  <p align="center">
+    <button class="button midnightbutton" onclick="document.location = 'BathypelagicZone.html'">Learn About Their Zone!</button>
+  </p>
+
+  <!--external links with more info on other sites-->
+<BR>
+  <p align="left" style="font-family:verdana; font-size:16px">
+    <font color="white"><i>Learn more about the Angler Fish at these sites:</i><BR></font>
+    </p>
+    <p align="left" style="font-family:verdana; font-size:14px">
+      <a href="https://www.nationalgeographic.com/animals/fish/group/anglerfish/">National Geographic - Angler Fish</a>
+      <BR>
+      <a href="http://scienceline.ucsb.edu/getkey.php?key=4981">UCSB ScienceLine - What do Angler Fish Eat?</a>
+      </p>
+<BR><BR><BR><BR>
+</body>
+</html>
